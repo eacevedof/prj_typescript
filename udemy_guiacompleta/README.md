@@ -3,3 +3,12 @@
 ### cap_08
 - `tsc -init` proyecto de ts
 - `tsc *.ts --w`
+### cap_10
+- string
+- number
+- boolean
+- objetos literales
+- clases
+- funciones
+- interfaces
+- tipos genericos
