@@ -12,3 +12,7 @@
 - funciones
 - interfaces
 - tipos genericos
+- **var vs let**
+```ts
+
+```
