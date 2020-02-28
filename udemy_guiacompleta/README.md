@@ -1,0 +1,2 @@
+- `tsc app` pasa app.ts a app.js
+- `tsc app.ts --w` hot reload
