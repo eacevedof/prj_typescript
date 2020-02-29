@@ -40,7 +40,7 @@ console.log(a)
 ```
 ### [11. Más información sobre los tipos de datos 1 min]()
 - [Doc oficial](http://www.typescriptlang.org/docs/handbook/basic-types.html)
-### [12. Booleans - Booleanos 4 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6153970#notes)
+### [12. Booleans - Booleanos 4 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6153970#content)
 - 
 ### [13. Numbers - Números 2 min]()
 - 
