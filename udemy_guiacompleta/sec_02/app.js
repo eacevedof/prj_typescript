@@ -1,23 +1,14 @@
 //app.ts
-console.log("app.ts");
-var isSuperman = true;
-var isBatman;
-//no recomendable
-// let isAquaman = true
-var isAquaman = true;
-if (isSuperman) {
-    console.log("Superman! ..estamos salvados");
+var avengers = 5;
+var villanos; //esto estaria en undefined
+var otros = 2;
+if (avengers > villanos) { //aqui me marca como error
+    //se ejecutaria esto
+    console.log("Estamos salvados");
 }
 else {
-    console.log("Ooops! ohh");
+    console.log("Estamos muertos");
 }
-isSuperman = convertir_clark();
-if (isSuperman) {
-    console.log("Superman! ..estamos salvados");
-}
-else {
-    console.log("Ooops! ohh");
-}
-function convertir_clark() {
-    return false;
-}
+otros = 35;
+otros = 123.12;
+otros = "123"; //error

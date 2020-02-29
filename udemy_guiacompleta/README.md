@@ -71,8 +71,25 @@ function convertir_clark(){
   return false
 }
 ```
-### [13. Numbers - Números 2 min]()
-- 
+### [13. Numbers - Números 2 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6153976#content)
+```ts
+//app.ts
+let avengers:number = 5
+let villanos:number //esto estaria en undefined
+let otros=2
+
+if(avengers>villanos){ //aqui me marca como error
+  //se ejecutaria esto
+  console.log("Estamos salvados")
+}
+else{
+  console.log("Estamos muertos")
+}
+
+otros=35
+otros=123.12
+otros="123" //error
+```
 ### [14. Strings - Cadenas de caracteres 5 min]()
 - 
 ### [15. Tipo Any 3 min]()

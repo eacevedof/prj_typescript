@@ -1,28 +1,16 @@
 //app.ts
-console.log("app.ts")
-let isSuperman:boolean = true
-let isBatman:boolean
+let avengers:number = 5
+let villanos:number //esto estaria en undefined
+let otros=2
 
-//no recomendable
-// let isAquaman = true
-let isAquaman:boolean = true
-
-if(isSuperman){
-  console.log("Superman! ..estamos salvados")
+if(avengers>villanos){ //aqui me marca como error
+  //se ejecutaria esto
+  console.log("Estamos salvados")
 }
 else{
-  console.log("Ooops! ohh")
+  console.log("Estamos muertos")
 }
 
-isSuperman = convertir_clark()
-
-if(isSuperman){
-  console.log("Superman! ..estamos salvados")
-}
-else{
-  console.log("Ooops! ohh")
-}
-
-function convertir_clark(){
-  return false
-}
+otros=35
+otros=123.12
+otros="123" //error
