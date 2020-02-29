@@ -17,6 +17,9 @@ enum fuerza {
   acuaman=0
 }
 
+let fuerzaFlash = fuerza.flash
+let fuerzaSuperman = fuerza.superman
+
 function activar_batisenal():string{
   return "activada"
 }
@@ -26,6 +29,6 @@ function pedir_ayuda():void{
 }
 
 //casteo o aserciones
-let poder = "100"
-let largoDelPoder = (<string> poder).length
+let poder:string = "100"
+let largoDelPoder:number = poder.length
 console.log(largoDelPoder)

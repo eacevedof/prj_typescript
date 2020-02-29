@@ -13,6 +13,8 @@ var fuerza;
     fuerza[fuerza["batman"] = 1] = "batman";
     fuerza[fuerza["acuaman"] = 0] = "acuaman";
 })(fuerza || (fuerza = {}));
+var fuerzaFlash = fuerza.flash;
+var fuerzaSuperman = fuerza.superman;
 function activar_batisenal() {
     return "activada";
 }

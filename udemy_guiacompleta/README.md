@@ -246,6 +246,8 @@ enum fuerza {
   acuaman=0
 }
 
+
+
 function activar_batisenal():string{
   return "activada"
 }
