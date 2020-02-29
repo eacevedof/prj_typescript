@@ -224,10 +224,40 @@ ironman=null
 ironman=undefined
 ```
 ### [23. Ejercicio práctico #1. 1 min]()
+- carpeta ejercicio
+### [24. Resolución del Ejercicio #1 4 min Cuestionario 1: Exámen teórico #1](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154118#content)
 ```ts
-```
-### [24. Resolución del Ejercicio #1 4 min Cuestionario 1: Exámen teórico #1]()
-```ts
+//app.ts
+//ejercicio
+
+let batman:string = "Bruce"
+let superman:string = "Clark"
+let existe:boolean = false
+
+let parejaHeroes:[string,string] = [batman,superman]
+let villano:[string,number,boolean] = ["Lex Lutor",5,true];
+
+let aliados:string[] = ["Mujer m","acu"]
+
+enum fuerza {
+  flash=5,
+  superman=100,
+  batman=1,
+  acuaman=0
+}
+
+function activar_batisenal():string{
+  return "activada"
+}
+
+function pedir_ayuda():void{
+  console.log("Auxilio!!!")
+}
+
+//casteo o aserciones
+let poder = "100"
+let largoDelPoder = (<string> poder).length
+console.log(largoDelPoder)
 ```
 ### Sección 3: Funciones y objetos 0 / 10|26 min
 ### [25. ¿Qué veremos en esta sección? 1 min]()
