@@ -263,8 +263,16 @@ let largoDelPoder:number = poder.length
 console.log(largoDelPoder)
 ```
 ### Sección 3: Funciones y objetos 0 / 10|26 min
-### [25. ¿Qué veremos en esta sección? 1 min]()
-- 
+### [25. ¿Qué veremos en esta sección? 1 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6230455#content)
+- Esta sección esta enfocada en aprender como trabajan las funciones en TypeScript y también nos enfocaremos en aplicar buenas prácticas a la hora de crearlas.
+- Puntualmente tenemos:
+    Declaraciones básicas de funciones
+    Parámetros obligatorios
+    Parámetros opcionales
+    Parámetros por defecto
+    Parámetros REST
+- Tipo de datos "Function"
+- Al final de la sección, tendremos el examen práctico y el examen teórico.
 ### [26. Funciones básicas 2 min]()
 - 
 ### [27. Parámetros obligatorios de las funciones 2 min]()
