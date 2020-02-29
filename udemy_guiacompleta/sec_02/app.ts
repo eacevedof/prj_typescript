@@ -1,12 +1,16 @@
 //app.ts
-let batman:string = "Batman"
-let linternav:string = "Linterna Verde"
-let volcannegro:string = "Volcan negro"
+//let vengador;
+let vengador:any = "Superman"
 
-console.log(batman)
-console.log(linternav)
-console.log(volcannegro)
+let existe;
+let derrotas;
 
-let concatenar:string = `Los héroes: ${batman}, ${linternav}, ${volcannegro}`
+vengador = "Dr. Strange"
+console.log(vengador.charAt(0))
 
-console.log(concatenar)
+vengador = 150.5555
+console.log(vengador.toFixed(2))
+
+vengador = true
+console.log(vengador)
+

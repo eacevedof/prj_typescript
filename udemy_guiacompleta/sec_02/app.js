@@ -1,9 +1,11 @@
 //app.ts
-var batman = "Batman";
-var linternav = "Linterna Verde";
-var volcannegro = "Volcan negro";
-console.log(batman);
-console.log(linternav);
-console.log(volcannegro);
-var concatenar = "Los h\u00E9roes: " + batman + ", " + linternav + ", " + volcannegro;
-console.log(concatenar);
+//let vengador;
+var vengador = "Superman";
+var existe;
+var derrotas;
+vengador = "Dr. Strange";
+console.log(vengador.charAt(0));
+vengador = 150.5555;
+console.log(vengador.toFixed(2));
+vengador = true;
+console.log(vengador);

@@ -106,8 +106,25 @@ let concatenar:string = `Los héroes: ${batman}, ${linternav}, ${volcannegro}`
 
 console.log(concatenar)
 ```
-### [15. Tipo Any 3 min]()
+### [15. Tipo Any 3 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6174034#content)
+- ![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/944x224/87af1c7547390964f2fc35ba2cd29efe/image.png)
+- Si no llevan tipo son de tipo "any"
 ```ts
+//app.ts
+//let vengador;
+let vengador:any = "Superman"
+
+let existe;
+let derrotas;
+
+vengador = "Dr. Strange"
+console.log(vengador.charAt(0))
+
+vengador = 150.5555
+console.log(vengador.toFixed(2))
+
+vengador = true
+console.log(vengador)
 ```
 ### [16. Arrays - Arreglos 3 min]()
 ```ts
