@@ -1,10 +1,7 @@
 //app.ts
-var heroe = "flash";
-function imprime_heroe() {
-    return heroe;
+//parámetros obligatorios
+function nombre_completo(nombre, apellido) {
+    return nombre + " " + apellido;
 }
-var activar_batisenal = function () {
-    return "Batiseñal activada";
-};
-console.log(imprime_heroe());
-console.log(activar_batisenal());
+var nombre = nombre_completo("clark", "");
+console.log(nombre);

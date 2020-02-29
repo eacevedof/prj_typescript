@@ -1,13 +1,9 @@
 //app.ts
-let heroe:string = "flash"
-
-function imprime_heroe():string{
-  return heroe
+//parámetros obligatorios
+function nombre_completo(nombre:string, apellido:string):string{
+  return `${nombre} ${apellido}`
 }
 
-let activar_batisenal = ():string =>{
-  return "Batiseñal activada"
-}
+let nombre = nombre_completo("clark","")
 
-console.log(imprime_heroe())
-console.log(activar_batisenal())
+console.log(nombre)

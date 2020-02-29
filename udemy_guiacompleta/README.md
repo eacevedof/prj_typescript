@@ -292,6 +292,15 @@ console.log(activar_batisenal())
 ```
 ### [27. Parámetros obligatorios de las funciones 2 min]()
 ```ts
+//app.ts
+//parámetros obligatorios
+function nombre_completo(nombre:string, apellido:string):string{
+  return `${nombre} ${apellido}`
+}
+
+let nombre = nombre_completo("clark","")
+
+console.log(nombre)
 ```
 ### [28. Parámetros opcionales de las funciones. 3 min]()
 ```ts
