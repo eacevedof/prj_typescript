@@ -1,10 +1,10 @@
 //app.ts
-enum Volumen {
-  min = 1,
-  medio = 5,
-  max = 10
+
+//esta función no regresa nada
+function llamar_batman():void{
+  console.log("Mostrar la batiseñal")
+  //return 1 lo marcaria como error
 }
 
-let audio:number = Volumen.medio
-console.log(audio)
-console.log(Volumen)
+let mensaje = llamar_batman()
+console.log(mensaje) //undefined

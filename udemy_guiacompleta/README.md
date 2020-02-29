@@ -176,8 +176,19 @@ console.log(Volumen);
 ![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/4c0dc756f2aaee8a0c2c276a5b2b759f/image.png)
 ![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/958x362/be02104b932ff45d7f4bee908b6d9ac6/image.png)
 
-### [19. Void - Vacío 2 min]()
+### [19. Void - Vacío 2 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154016#content)
+- void es *ningún tipo*
 ```ts
+//app.ts
+
+//esta función no regresa nada
+function llamar_batman():void{
+  console.log("Mostrar la batiseñal")
+  //return 1 lo marcaria como error
+}
+
+let mensaje = llamar_batman()
+console.log(mensaje) //undefined
 ```
 ### [20. Never - Nunca 2 min]()
 ```ts

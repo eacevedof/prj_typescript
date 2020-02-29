@@ -1,10 +1,8 @@
 //app.ts
-var Volumen;
-(function (Volumen) {
-    Volumen[Volumen["min"] = 1] = "min";
-    Volumen[Volumen["medio"] = 5] = "medio";
-    Volumen[Volumen["max"] = 10] = "max";
-})(Volumen || (Volumen = {}));
-var audio = Volumen.medio;
-console.log(audio);
-console.log(Volumen);
+//esta función no regresa nada
+function llamar_batman() {
+    console.log("Mostrar la batiseñal");
+    //return 1 lo marcaria como error
+}
+var mensaje = llamar_batman();
+console.log(mensaje); //undefined
