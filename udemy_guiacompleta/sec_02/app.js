@@ -1,5 +1,4 @@
 //app.ts
-function error(mensaje) {
-    throw new Error(mensaje);
-}
-error("Ha ocurrido un error crítico");
+var cualquiervalor = "Cualquier cosa";
+var largoDelString = cualquiervalor.length;
+console.log(largoDelString); //devuelve 14

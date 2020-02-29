@@ -1,7 +1,4 @@
 //app.ts
-
-function error(mensaje:string):never{
-  throw new Error(mensaje)
-}
-
-error("Ha ocurrido un error crítico")
+let cualquiervalor:any = "Cualquier cosa"
+let largoDelString:number = (<string>cualquiervalor).length
+console.log(largoDelString) //devuelve 14

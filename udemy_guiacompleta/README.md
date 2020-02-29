@@ -203,9 +203,13 @@ function error(mensaje:string):never{
 }
 error("Ha ocurrido un error crítico")
 ```
-
-### [21. Aserciones de tipo 2 min]()
+### [21. Aserciones de tipo 2 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154058#content)
+![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/1187x108/cde86cf9a9c14e55beadec1bbf6db69d/image.png)
 ```ts
+//app.ts
+let cualquiervalor:any = "Cualquier cosa"
+let largoDelString:number = (<string>cualquiervalor).length
+console.log(largoDelString) //devuelve 14
 ```
 ### [22. Null y Undefined 3 min]()
 ```ts
