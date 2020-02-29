@@ -23,8 +23,6 @@ else{
   console.log("Ooops! ohh")
 }
 
-
-
 function convertir_clark(){
   return false
 }

@@ -41,7 +41,36 @@ console.log(a)
 ### [11. Más información sobre los tipos de datos 1 min]()
 - [Doc oficial](http://www.typescriptlang.org/docs/handbook/basic-types.html)
 ### [12. Booleans - Booleanos 4 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6153970#content)
-- 
+```ts
+//app.ts
+console.log("app.ts")
+let isSuperman:boolean = true
+let isBatman:boolean
+
+//no recomendable
+// let isAquaman = true
+let isAquaman:boolean = true
+
+if(isSuperman){
+  console.log("Superman! ..estamos salvados")
+}
+else{
+  console.log("Ooops! ohh")
+}
+
+isSuperman = convertir_clark()
+
+if(isSuperman){
+  console.log("Superman! ..estamos salvados")
+}
+else{
+  console.log("Ooops! ohh")
+}
+
+function convertir_clark(){
+  return false
+}
+```
 ### [13. Numbers - Números 2 min]()
 - 
 ### [14. Strings - Cadenas de caracteres 5 min]()
