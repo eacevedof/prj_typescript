@@ -148,9 +148,34 @@ let heroe:[string,number,boolean] = ["Dr. Strange",100,true]
 
 heroe.push(true) //lo aceptaria, un caso raro
 ```
-### [18. Emun - Enumeraciones 4 min]()
+### [18. Emun - Enumeraciones 4 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154008#content)
 ```ts
+//app.ts
+enum Volumen {
+  min = 1,
+  medio = 5,
+  max = 10
+}
+
+let audio:number = Volumen.medio
+console.log(audio)
+console.log(Volumen)
 ```
+```js
+//app.js
+var Volumen;
+(function (Volumen) {
+    Volumen[Volumen["min"] = 1] = "min";
+    Volumen[Volumen["medio"] = 5] = "medio";
+    Volumen[Volumen["max"] = 10] = "max";
+})(Volumen || (Volumen = {}));
+var audio = Volumen.medio;
+console.log(audio);
+console.log(Volumen);
+```
+![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/4c0dc756f2aaee8a0c2c276a5b2b759f/image.png)
+![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/958x362/be02104b932ff45d7f4bee908b6d9ac6/image.png)
+
 ### [19. Void - Vacío 2 min]()
 ```ts
 ```

@@ -1,6 +1,10 @@
 //app.ts
+enum Volumen {
+  min = 1,
+  medio = 5,
+  max = 10
+}
 
-//las tuplas son arrays finitos con posiciones tipadas
-let heroe:[string,number,boolean] = ["Dr. Strange",100,true]
-
-heroe.push(true) //lo aceptaria, un caso raro
+let audio:number = Volumen.medio
+console.log(audio)
+console.log(Volumen)

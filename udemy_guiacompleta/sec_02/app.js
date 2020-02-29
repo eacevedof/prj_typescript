@@ -1,4 +1,10 @@
 //app.ts
-//las tuplas son arrays finitos con posiciones tipadas
-var heroe = ["Dr. Strange", 100, true];
-heroe.push(true); //lo aceptaria, un caso raro
+var Volumen;
+(function (Volumen) {
+    Volumen[Volumen["min"] = 1] = "min";
+    Volumen[Volumen["medio"] = 5] = "medio";
+    Volumen[Volumen["max"] = 10] = "max";
+})(Volumen || (Volumen = {}));
+var audio = Volumen.medio;
+console.log(audio);
+console.log(Volumen);
