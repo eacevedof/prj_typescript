@@ -302,8 +302,17 @@ let nombre = nombre_completo("clark","")
 
 console.log(nombre)
 ```
-### [28. Parámetros opcionales de las funciones. 3 min]()
+### [28. Parámetros opcionales de las funciones. 3 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154162#content)
+- En js todos los parámetros son opcionales
 ```ts
+//app.ts
+//parámetros obligatorios
+function nombre_completo(nombre:string, apellido:string):string{
+  return `${nombre} ${apellido}`
+}
+
+let nombre = nombre_completo("clark","")
+console.log(nombre)
 ```
 ### [29. Parámetros por defecto 5 min]()
 ```ts
