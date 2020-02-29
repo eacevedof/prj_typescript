@@ -19,7 +19,8 @@
 - `tsc *.ts --w`
 ### Sección 2: Tipos básicos 3 / 17|40 min
 ### [9. ¿Qué veremos en esta sección? 1 min]()
-### [10. Introducción a los tipos de datos 2 min]()
+### [10. Introducción a los tipos de datos 2 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6172774#content)
+- ![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/1008x762/3d4a68e03c0d905280bd3c21eea7b7ba/image.png)
 - string
 - number
 - boolean
