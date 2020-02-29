@@ -24,7 +24,7 @@
 - interfaces
 - tipos genericos
 - **var vs let**
-- ![pregunta](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6173050#questions/7042792)
+- [pregunta](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6173050#questions/7042792)
 ```js
 if (false){
     var a = 10
