@@ -275,7 +275,21 @@ console.log(largoDelPoder)
 - Al final de la sección, tendremos el examen práctico y el examen teórico.
 ### [26. Funciones básicas 2 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154122#content)
 - Las funciones entre js y ts son iguales
+```ts
+//app.ts
+let heroe:string = "flash"
 
+function imprime_heroe():string{
+  return heroe
+}
+
+let activar_batisenal = ():string =>{
+  return "Batiseñal activada"
+}
+
+console.log(imprime_heroe())
+console.log(activar_batisenal())
+```
 ### [27. Parámetros obligatorios de las funciones 2 min]()
 - 
 ### [28. Parámetros opcionales de las funciones. 3 min]()
