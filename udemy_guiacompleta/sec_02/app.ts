@@ -1,16 +1,12 @@
 //app.ts
-let avengers:number = 5
-let villanos:number //esto estaria en undefined
-let otros=2
+let batman:string = "Batman"
+let linternav:string = "Linterna Verde"
+let volcannegro:string = "Volcan negro"
 
-if(avengers>villanos){ //aqui me marca como error
-  //se ejecutaria esto
-  console.log("Estamos salvados")
-}
-else{
-  console.log("Estamos muertos")
-}
+console.log(batman)
+console.log(linternav)
+console.log(volcannegro)
 
-otros=35
-otros=123.12
-otros="123" //error
+let concatenar:string = `Los héroes: ${batman}, ${linternav}, ${volcannegro}`
+
+console.log(concatenar)

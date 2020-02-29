@@ -90,28 +90,52 @@ otros=35
 otros=123.12
 otros="123" //error
 ```
-### [14. Strings - Cadenas de caracteres 5 min]()
-- 
+### [14. Strings - Cadenas de caracteres 5 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6153982#content)
+- ![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/9ef71b898c89310835e147d989d31dc3/image.png)
+```ts
+//app.ts
+let batman:string = "Batman"
+let linternav:string = "Linterna Verde"
+let volcannegro:string = "Volcan negro"
+
+console.log(batman)
+console.log(linternav)
+console.log(volcannegro)
+
+let concatenar:string = `Los héroes: ${batman}, ${linternav}, ${volcannegro}`
+
+console.log(concatenar)
+```
 ### [15. Tipo Any 3 min]()
-- 
+```ts
+```
 ### [16. Arrays - Arreglos 3 min]()
-- 
+```ts
+```
 ### [17. Tuples - Tuplas 2 min]()
-- 
+```ts
+```
 ### [18. Emun - Enumeraciones 4 min]()
-- 
+```ts
+```
 ### [19. Void - Vacío 2 min]()
-- 
+```ts
+```
 ### [20. Never - Nunca 2 min]()
-- 
+```ts
+```
 ### [21. Aserciones de tipo 2 min]()
-- 
+```ts
+```
 ### [22. Null y Undefined 3 min]()
-- 
+```ts
+```
 ### [23. Ejercicio práctico #1. 1 min]()
-- 
+```ts
+```
 ### [24. Resolución del Ejercicio #1 4 min Cuestionario 1: Exámen teórico #1]()
-- 
+```ts
+```
 ### Sección 3: Funciones y objetos 0 / 10|26 min
 ### [25. ¿Qué veremos en esta sección? 1 min]()
 - 
