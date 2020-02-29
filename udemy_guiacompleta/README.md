@@ -190,9 +190,20 @@ function llamar_batman():void{
 let mensaje = llamar_batman()
 console.log(mensaje) //undefined
 ```
-### [20. Never - Nunca 2 min]()
+### [20. Never - Nunca 2 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154030#content)
+- Es algo que nunca debe suceder
+- Si llega a este punto la app deberia de salir
+- Es el tipo de excepcion
+![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/1168x161/5fffe8f14c97ef9d9509606a92d0e47d/image.png)
+![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/968x254/c6086a513c3f1f191ea461eb7f76ecca/image.png)
 ```ts
+//app.ts
+function error(mensaje:string):never{
+  throw new Error(mensaje)
+}
+error("Ha ocurrido un error crítico")
 ```
+
 ### [21. Aserciones de tipo 2 min]()
 ```ts
 ```

@@ -1,8 +1,5 @@
 //app.ts
-//esta función no regresa nada
-function llamar_batman() {
-    console.log("Mostrar la batiseñal");
-    //return 1 lo marcaria como error
+function error(mensaje) {
+    throw new Error(mensaje);
 }
-var mensaje = llamar_batman();
-console.log(mensaje); //undefined
+error("Ha ocurrido un error crítico");
