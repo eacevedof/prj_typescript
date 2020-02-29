@@ -1,16 +1,10 @@
 ### Sección 1: Introducción a TypeScript 8 / 8|31 min
 ### [1. Introducción al TypeScript 17 min]()
-- 
 ### [2. Introducción al curso 2 min]()
-- 
 ### [3. ¿Cómo hacer preguntas? 1 min]()
-- 
 ### [4. ¿Qué veremos en esta sección? 1 min]()
-- 
 ### [5. Instalaciones necesarias 4 min]()
-- 
 ### [6. Hola Mundo - Prueba de las instalaciones 3 min]()
-- 
 ### [7. Modo observador - Watch mode 2 min]()
 - `tsc app` pasa app.ts a app.js
 - `tsc app.ts --w` hot reload
@@ -45,8 +39,8 @@ console.log(a)
 //a is not defined
 ```
 ### [11. Más información sobre los tipos de datos 1 min]()
-- 
-### [12. Booleans - Booleanos 4 min]()
+- [Doc oficial](http://www.typescriptlang.org/docs/handbook/basic-types.html)
+### [12. Booleans - Booleanos 4 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6153970#notes)
 - 
 ### [13. Numbers - Números 2 min]()
 - 
