@@ -211,8 +211,17 @@ let cualquiervalor:any = "Cualquier cosa"
 let largoDelString:number = (<string>cualquiervalor).length
 console.log(largoDelString) //devuelve 14
 ```
-### [22. Null y Undefined 3 min]()
+### [22. Null y Undefined 3 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154024#content)
+- tsconfig.json: **"strictNullChecks": true,**
+- Evita que se pueda asignar undefined o null a una variable con otro tipo
+- ![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/1012x191/d3ff40d59401c6a96890a42209f4e651/image.png)
 ```ts
+//app.ts
+//undefined y null 
+let ironman:string
+ironman="Tony"
+ironman=null
+ironman=undefined
 ```
 ### [23. Ejercicio práctico #1. 1 min]()
 ```ts

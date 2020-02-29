@@ -1,4 +1,8 @@
 //app.ts
-let cualquiervalor:any = "Cualquier cosa"
-let largoDelString:number = (<string>cualquiervalor).length
-console.log(largoDelString) //devuelve 14
+//undefined y null 
+let ironman:string
+
+ironman="Tony"
+
+ironman=null
+ironman=undefined
