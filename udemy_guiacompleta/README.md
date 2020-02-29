@@ -273,8 +273,9 @@ console.log(largoDelPoder)
     Parámetros REST
 - Tipo de datos "Function"
 - Al final de la sección, tendremos el examen práctico y el examen teórico.
-### [26. Funciones básicas 2 min]()
-- 
+### [26. Funciones básicas 2 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154122#content)
+- Las funciones entre js y ts son iguales
+
 ### [27. Parámetros obligatorios de las funciones 2 min]()
 - 
 ### [28. Parámetros opcionales de las funciones. 3 min]()
