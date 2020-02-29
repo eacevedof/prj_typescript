@@ -291,19 +291,26 @@ console.log(imprime_heroe())
 console.log(activar_batisenal())
 ```
 ### [27. Parámetros obligatorios de las funciones 2 min]()
-- 
+```ts
+```
 ### [28. Parámetros opcionales de las funciones. 3 min]()
-- 
+```ts
+```
 ### [29. Parámetros por defecto 5 min]()
-- 
+```ts
+```
 ### [30. Parametros REST 3 min]()
-- 
+```ts
+```
 ### [31. Tipo Función 4 min]()
-- 
+```ts
+```
 ### [32. Ejercicio práctico #2 1 min]()
-- 
+```ts
+```
 ### [33. Resolución del ejercicio práctico #2 5 min Cuestionario 2: Examen teórico #2]()
-- 
+```ts
+```
 ### Sección 4: Objetos y tipos personalizados en TypeScript 0 / 11|21 min
 ### [34. ¿Qué veremos en esta sección? 1 min]()
 - 
