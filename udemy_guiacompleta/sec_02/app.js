@@ -1,5 +1,4 @@
 //app.ts
-var arreglo = [1, 3, 4, 5];
-arreglo.push(15);
-var villanos = ["Omega Rojo", "Dormammu", "Duende Verde"];
-villanos.push("otro");
+//las tuplas son arrays finitos con posiciones tipadas
+var heroe = ["Dr. Strange", 100, true];
+heroe.push(true); //lo aceptaria, un caso raro

@@ -1,7 +1,6 @@
 //app.ts
-let arreglo:number[] = [1,3,4,5]
-arreglo.push(15)
 
-let villanos:string[] = ["Omega Rojo","Dormammu","Duende Verde"]
+//las tuplas son arrays finitos con posiciones tipadas
+let heroe:[string,number,boolean] = ["Dr. Strange",100,true]
 
-villanos.push("otro")
+heroe.push(true) //lo aceptaria, un caso raro

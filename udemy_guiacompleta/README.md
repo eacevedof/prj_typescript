@@ -138,8 +138,15 @@ let villanos:string[] = ["Omega Rojo","Dormammu","Duende Verde"]
 villanos.push("otro")
 ```
 - ![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/edbc3640c4b3b0230e47fcd4110968d2/image.png)
-### [17. Tuples - Tuplas 2 min]()
+### [17. Tuples - Tuplas 2 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6153996#content)
+![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/e26d3edf693662210777453700446138/image.png)
 ```ts
+//app.ts
+
+//las tuplas son arrays finitos con posiciones tipadas
+let heroe:[string,number,boolean] = ["Dr. Strange",100,true]
+
+heroe.push(true) //lo aceptaria, un caso raro
 ```
 ### [18. Emun - Enumeraciones 4 min]()
 ```ts
