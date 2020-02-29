@@ -1,16 +1,7 @@
 //app.ts
-//let vengador;
-let vengador:any = "Superman"
+let arreglo:number[] = [1,3,4,5]
+arreglo.push(15)
 
-let existe;
-let derrotas;
+let villanos:string[] = ["Omega Rojo","Dormammu","Duende Verde"]
 
-vengador = "Dr. Strange"
-console.log(vengador.charAt(0))
-
-vengador = 150.5555
-console.log(vengador.toFixed(2))
-
-vengador = true
-console.log(vengador)
-
+villanos.push("otro")

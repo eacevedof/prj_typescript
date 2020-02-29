@@ -126,9 +126,18 @@ console.log(vengador.toFixed(2))
 vengador = true
 console.log(vengador)
 ```
-### [16. Arrays - Arreglos 3 min]()
+### [16. Arrays - Arreglos 3 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6153992#content)
+- ![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/e5ad27aa024eea02a0f40ef050179f7c/image.png)
 ```ts
+//app.ts
+let arreglo:number[] = [1,3,4,5]
+arreglo.push(15)
+
+let villanos:string[] = ["Omega Rojo","Dormammu","Duende Verde"]
+
+villanos.push("otro")
 ```
+- ![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/edbc3640c4b3b0230e47fcd4110968d2/image.png)
 ### [17. Tuples - Tuplas 2 min]()
 ```ts
 ```
