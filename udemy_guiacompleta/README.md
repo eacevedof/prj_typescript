@@ -353,9 +353,38 @@ function capitalizar(palabra) {
 var nombre = nombre_completo("tony", "stark");
 console.log(nombre);
 ```
-### [30. Parametros REST 3 min]()
+### [30. Parametros REST 3 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154196#content)
+![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/8392983725fb2697c89a740e3c8ebb37/image.png)
 ```ts
+//app.ts
+//parámetros rest
+function nombre_completo(nombre:string, ...losdemas:string[]):string{
+  return nombre + " " + losdemas.join(" ")
+}
+
+let superman:string = nombre_completo("clark","Joseph","Kent")
+let ironam:string = nombre_completo("Anthony","Edward","Tony","Stark")
+
+console.log(superman)
+console.log(ironam)
 ```
+```js
+//app.js
+//parámetros rest
+function nombre_completo(nombre) {
+    var losdemas = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        losdemas[_i - 1] = arguments[_i];
+    }
+    return nombre + " " + losdemas.join(" ");
+}
+var superman = nombre_completo("clark", "Joseph", "Kent");
+var ironam = nombre_completo("Anthony", "Edward", "Tony", "Stark");
+console.log(superman);
+console.log(ironam);
+```
+![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/956x256/a7e15672c15ffea4b60101d93257d035/image.png)
+
 ### [31. Tipo Función 4 min]()
 ```ts
 ```

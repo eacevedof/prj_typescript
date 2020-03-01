@@ -1,15 +1,13 @@
 //app.ts
-//parametro por defecto
-function nombre_completo(nombre, apellido, capitalizado) {
-    if (capitalizado === void 0) { capitalizado = true; }
-    console.log(capitalizado);
-    if (capitalizado) {
-        return capitalizar(nombre) + " " + capitalizar(apellido);
+//parámetros rest
+function nombre_completo(nombre) {
+    var losdemas = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        losdemas[_i - 1] = arguments[_i];
     }
-    return nombre + " " + apellido;
+    return nombre + " " + losdemas.join(" ");
 }
-function capitalizar(palabra) {
-    return palabra.charAt(0).toUpperCase() + palabra.substr(1).toLowerCase();
-}
-var nombre = nombre_completo("tony", "stark");
-console.log(nombre);
+var superman = nombre_completo("clark", "Joseph", "Kent");
+var ironam = nombre_completo("Anthony", "Edward", "Tony", "Stark");
+console.log(superman);
+console.log(ironam);
