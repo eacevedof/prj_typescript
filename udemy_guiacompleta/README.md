@@ -494,8 +494,16 @@ nohacenada_tampoco = nohace_nada;
 ### [Cuestionario 2: Examen teórico #2](https://www.udemy.com/course/typescript-guia-completa/learn/quiz/311244#content)
 
 ### Sección 4: Objetos y tipos personalizados en TypeScript 0 / 11|21 min
-### [34. ¿Qué veremos en esta sección? 1 min]()
-- 
+### [34. ¿Qué veremos en esta sección? 1 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6230505#content)
+- Aprenderemos a utilizar los objetos en TypeScript, su uso y mantener nuestro código bien limpio mediante tipos personalizados.
+- Los temas serán:
+  - Objetos básicos
+  - Crear objetos con tipos específicos
+  - Crear métodos dentro de objetos
+  - Tipos personalizados
+  - Crear variables que soporten varios tipos a la vez.
+  - Comprobar el tipo de un objeto.
+  - Al final, el respectivo examen práctico y teórico.
 ### [35. Objetos básicos 3 min]()
 - 
 ### [36. ¿Cómo crear objetos con tipos específicos? 3 min]()
