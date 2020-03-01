@@ -520,8 +520,29 @@ flash = {
   poderes: ["Poder volar"]
 }
 ```
-### [36. ¿Cómo crear objetos con tipos específicos? 3 min]()
+### [36. ¿Cómo crear objetos con tipos específicos? 3 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154364#content)
+![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/0d6ef415360bb6cafa8f3a15cd5c7e6d/image.png)
 ```ts
+//definiendo un objeto como tipo de datos
+//el orden no importa
+let flash: {nombre:string, edad:number, poderes:string[]} = {
+  nombre: "Barry Allen",
+  edad: 24,
+  poderes: ["Puede correr muy rápido","Viajar por el tiempo"],
+  get_nombre(){
+    //esto en js es válido pero no en ts
+  }
+}
+```
+```js
+var flash = {
+    nombre: "Barry Allen",
+    edad: 24,
+    poderes: ["Puede correr muy rápido", "Viajar por el tiempo"],
+    get_nombre: function () {
+        //esto en js es válido pero no en ts
+    }
+};
 ```
 ### [37. Métodos dentro de los objetos 2 min]()
 ```ts
