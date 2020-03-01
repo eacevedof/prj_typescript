@@ -790,11 +790,8 @@ mystique = charles;
 mystique = apocalipsis;
 ```
 ### [43. Resolución del ejercicio práctico #3 5 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154524#content)
+### [Cuestionario 3: Examen teórico #3](https://www.udemy.com/course/typescript-guia-completa/learn/quiz/311250#content)
 
-### Cuestionario 3: Examen teórico #3]()
-```ts
-
-```
 ### Sección 5: Depuración de Errores y el archivo tsconfig.json 0 / 9|27 min
 ### [44. ¿Qué veremos en esta sección? 1 min]()
 - 
