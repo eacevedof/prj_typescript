@@ -662,27 +662,23 @@ else{
 > Descargue el material adjunto, trabaje con los tipos de datos y la información que aprendió en esta sección. Sea lo más especifico en los tipos posible y reutilice el primer tipo de dato (el del automóvil)
 ```ts
 //app.ts
-//ejercicio
-
-let batimovil: {
+//ejercicio sec04
+type Auto = {
   carroceria:string,
   modelo:string,
   antibalas:boolean,
-  pasajeros:number
-} = {
+  pasajeros:number,
+  disparar?:()=>void
+}
+
+let batimovil: Auto = {
   carroceria: "Negra",
   modelo: "6x6",
   antibalas: true,
   pasajeros:4
 }
 
-let bumblebee:{
-  carroceria:string,
-  modelo:string,
-  antibalas:boolean,
-  pasajeros:number,
-  disparar:()=>void
-} = {
+let bumblebee: Auto = {
   carroceria: "Amarillo con negro",
   modelo: "4x2",
   antibalas: true,
@@ -746,8 +742,6 @@ mystique = charles
 mystique = apocalipsis
 ```
 ```js
-//app.ts
-//ejercicio sec04
 var batimovil = {
   carroceria: "Negra",
   modelo: "6x6",
@@ -794,8 +788,11 @@ var mystique;
 mystique = charles;
 mystique = apocalipsis;
 ```
-### [43. Resolución del ejercicio práctico #3 5 min Cuestionario 3: Examen teórico #3]()
+### [43. Resolución del ejercicio práctico #3 5 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154524#content)
+
+### Cuestionario 3: Examen teórico #3]()
 ```ts
+
 ```
 ### Sección 5: Depuración de Errores y el archivo tsconfig.json 0 / 9|27 min
 ### [44. ¿Qué veremos en esta sección? 1 min]()

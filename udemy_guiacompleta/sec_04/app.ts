@@ -1,24 +1,21 @@
 //app.ts
 //ejercicio sec04
-let batimovil: {
+type Auto = {
   carroceria:string,
   modelo:string,
   antibalas:boolean,
-  pasajeros:number
-} = {
+  pasajeros:number,
+  disparar?:()=>void
+}
+
+let batimovil: Auto = {
   carroceria: "Negra",
   modelo: "6x6",
   antibalas: true,
   pasajeros:4
 }
 
-let bumblebee:{
-  carroceria:string,
-  modelo:string,
-  antibalas:boolean,
-  pasajeros:number,
-  disparar:()=>void
-} = {
+let bumblebee: Auto = {
   carroceria: "Amarillo con negro",
   modelo: "4x2",
   antibalas: true,
