@@ -544,8 +544,21 @@ var flash = {
     }
 };
 ```
-### [37. Métodos dentro de los objetos 2 min]()
+### [37. Métodos dentro de los objetos 2 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6186432#content)
+![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/e4460dfb5055a7fc0e1558ecd4c85ce2/image.png)
 ```ts
+let flash: {nombre:string, edad:number, 
+  poderes:string[], get_nombre:()=>string} = {
+
+  nombre: "Barry Allen",
+  edad: 24,
+  poderes: ["Puede correr muy rápido","Viajar por el tiempo"],
+  get_nombre(){
+    return this.nombre
+  }
+}
+
+console.log(flash.get_nombre())
 ```
 ### [38. ¿No creen que es un dolor de cabeza eso? 2 min]()
 ```ts
