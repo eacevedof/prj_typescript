@@ -316,8 +316,42 @@ function nombre_completo(nombre:string, apellido?:string):string{
 let nombre = nombre_completo("clark")
 console.log(nombre)
 ```
-### [29. Parámetros por defecto 5 min]()
+### [29. Parámetros por defecto 5 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6176840#content)
+![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/f30af8ceecb4b260431e9aafe75a729d/image.png)
 ```ts
+//app.ts
+//parametro por defecto
+function nombre_completo(
+  nombre:string, apellido:string, capitalizado:boolean=true
+){
+  console.log(capitalizado)
+  if(capitalizado){
+    return capitalizar(nombre) + " " + capitalizar(apellido)
+  }
+  return nombre + " " +apellido
+}
+function capitalizar(palabra:string):string{
+  return palabra.charAt(0).toUpperCase() + palabra.substr(1).toLowerCase()
+}
+let nombre = nombre_completo("tony","stark")
+console.log(nombre)
+```
+```js
+//app.js
+//parametro por defecto
+function nombre_completo(nombre, apellido, capitalizado) {
+    if (capitalizado === void 0) { capitalizado = true; }
+    console.log(capitalizado);
+    if (capitalizado) {
+        return capitalizar(nombre) + " " + capitalizar(apellido);
+    }
+    return nombre + " " + apellido;
+}
+function capitalizar(palabra) {
+    return palabra.charAt(0).toUpperCase() + palabra.substr(1).toLowerCase();
+}
+var nombre = nombre_completo("tony", "stark");
+console.log(nombre);
 ```
 ### [30. Parametros REST 3 min]()
 ```ts

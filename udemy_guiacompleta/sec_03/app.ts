@@ -1,10 +1,16 @@
 //app.ts
-//parámetro opcional
-function nombre_completo(nombre:string, apellido?:string):string{
-  
-  if(apellido)
-    return `${nombre} ${apellido}`
-  return `${nombre}`
+//parametro por defecto
+function nombre_completo(
+  nombre:string, apellido:string, capitalizado:boolean=true
+){
+  console.log(capitalizado)
+  if(capitalizado){
+    return capitalizar(nombre) + " " + capitalizar(apellido)
+  }
+  return nombre + " " +apellido
 }
-let nombre = nombre_completo("clark")
+function capitalizar(palabra:string):string{
+  return palabra.charAt(0).toUpperCase() + palabra.substr(1).toLowerCase()
+}
+let nombre = nombre_completo("tony","stark")
 console.log(nombre)
