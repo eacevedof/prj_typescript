@@ -504,8 +504,21 @@ nohacenada_tampoco = nohace_nada;
   - Crear variables que soporten varios tipos a la vez.
   - Comprobar el tipo de un objeto.
   - Al final, el respectivo examen práctico y teórico.
-### [35. Objetos básicos 3 min]()
+### [35. Objetos básicos 3 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154352#content)
+![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/1083x261/183a61e08dad5e27749c650eb52ce738/image.png)
 ```ts
+//app.ts
+let flash = {
+  nombre: "Barry Allen",
+  edad: 24,
+  poderes: ["Puede correr muy rápido","Viajar por el tiempo"]
+}
+
+flash = {
+  nombreHeroe: "Clark Kent",
+  edad: 500,
+  poderes: ["Poder volar"]
+}
 ```
 ### [36. ¿Cómo crear objetos con tipos específicos? 3 min]()
 ```ts
