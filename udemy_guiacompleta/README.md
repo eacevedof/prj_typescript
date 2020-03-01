@@ -690,7 +690,8 @@ let bumblebee: Auto = {
 
 type Villano = {
   nombre:string,
-  edad:number|undefined,
+  edad:number|undefined, 
+  //como estoy en modo estricto tengo que poner undefined
   mutante:boolean
 }
 
