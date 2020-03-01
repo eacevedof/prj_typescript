@@ -592,6 +592,32 @@ let superman: {nombre:string, edad:number,
 - palabra reservada: **type**
 ![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/255802a269aca3fa0b70c47eb291f1f4/image.png)
 ```ts
+//app.ts
+type Heroe = {
+  nombre:string, 
+  edad:number, 
+  poderes:string[], 
+  get_nombre:()=>string
+}
+
+let flash: Heroe = {
+
+  nombre: "Barry Allen",
+  edad: 24,
+  poderes: ["Puede correr muy rápido","Viajar por el tiempo"],
+  get_nombre(){
+    return this.nombre
+  }
+}
+
+let superman: Heroe = {
+  nombre: "Clark Kent",
+  edad: 500,
+  poderes: ["Puede volar","Super veolocidad"],
+  get_nombre(){
+    return this.nombre
+  }
+}
 
 ```
 ### [40. Multiples tipos permitidos 2 min]()
