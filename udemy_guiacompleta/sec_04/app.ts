@@ -1,9 +1,12 @@
 //app.ts
-//aqui el problema está en que si quiero añadir un valor numerico en poderes
-//debería cambiar cambiar el tipo de poderes en los dos objetos
-//veremos como hacer una plantilla de objetos
-let flash: {nombre:string, edad:number, 
-  poderes:string[], get_nombre:()=>string} = {
+type Heroe = {
+  nombre:string, 
+  edad:number, 
+  poderes:string[], 
+  get_nombre:()=>string
+}
+
+let flash: Heroe = {
 
   nombre: "Barry Allen",
   edad: 24,
@@ -13,9 +16,7 @@ let flash: {nombre:string, edad:number,
   }
 }
 
-let superman: {nombre:string, edad:number, 
-  poderes:string[], get_nombre:()=>string} = {
-
+let superman: Heroe = {
   nombre: "Clark Kent",
   edad: 500,
   poderes: ["Puede volar","Super veolocidad"],
@@ -23,4 +24,3 @@ let superman: {nombre:string, edad:number,
     return this.nombre
   }
 }
-
