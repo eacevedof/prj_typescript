@@ -385,8 +385,48 @@ console.log(ironam);
 ```
 ![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/956x256/a7e15672c15ffea4b60101d93257d035/image.png)
 
-### [31. Tipo Función 4 min]()
+### [31. Tipo Función 4 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154264#content)
+![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/4c2d65324ef62927ff084b7f8aa2a507/image.png)
 ```ts
+//app.ts
+//tipo funcion
+function sumar(a:number,b:number):number{
+  return a+b
+}
+function saludar(nombre:string):string{
+  return "I'm "+nombre
+}
+function salvar_mundo():void{
+  console.log("El mundo está salvado!")
+}
+/*
+let miFuncion;
+
+miFuncion = 10
+console.log(miFuncion) //10
+
+miFuncion = sumar
+console.log(miFuncion(5,5))//10
+
+miFuncion = saludar
+console.log(miFuncion("Batman"))//Im Batman
+
+miFuncion = salvar_mundo
+console.log(miFuncion()) //undefined
+*/
+let miFuncion: (x:number, y:number) => number 
+
+miFuncion = 10  //ts error
+console.log(miFuncion) //10
+
+miFuncion = sumar
+console.log(miFuncion(5,5))//10
+
+miFuncion = saludar //ts error
+console.log(miFuncion("Batman"))//Im Batman
+
+miFuncion = salvar_mundo //ts error
+console.log(miFuncion()) //undefined
 ```
 ### [32. Ejercicio práctico #2 1 min]()
 ```ts

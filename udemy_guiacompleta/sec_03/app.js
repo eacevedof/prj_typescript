@@ -1,13 +1,35 @@
 //app.ts
-//parámetros rest
-function nombre_completo(nombre) {
-    var losdemas = [];
-    for (var _i = 1; _i < arguments.length; _i++) {
-        losdemas[_i - 1] = arguments[_i];
-    }
-    return nombre + " " + losdemas.join(" ");
+//tipo funcion
+function sumar(a, b) {
+    return a + b;
 }
-var superman = nombre_completo("clark", "Joseph", "Kent");
-var ironam = nombre_completo("Anthony", "Edward", "Tony", "Stark");
-console.log(superman);
-console.log(ironam);
+function saludar(nombre) {
+    return "I'm " + nombre;
+}
+function salvar_mundo() {
+    console.log("El mundo está salvado!");
+}
+/*
+let miFuncion;
+
+miFuncion = 10
+console.log(miFuncion) //10
+
+miFuncion = sumar
+console.log(miFuncion(5,5))//10
+
+miFuncion = saludar
+console.log(miFuncion("Batman"))//Im Batman
+
+miFuncion = salvar_mundo
+console.log(miFuncion()) //undefined
+*/
+var miFuncion;
+miFuncion = 10; //ts error
+console.log(miFuncion); //10
+miFuncion = sumar;
+console.log(miFuncion(5, 5)); //10
+miFuncion = saludar; //ts error
+console.log(miFuncion("Batman")); //Im Batman
+miFuncion = salvar_mundo; //ts error
+console.log(miFuncion()); //undefined
