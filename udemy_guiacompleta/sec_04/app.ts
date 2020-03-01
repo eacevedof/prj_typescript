@@ -1,11 +1,11 @@
 //app.ts
-type Heroe = {
-  nombre:string, 
-  edad:number,
+let cosa:any = function():void{
+  console.log("soy fn cosa")
 }
-
-let loquesea:string | number | Heroe = "Fernando"
-loquesea = {
-  nombre: "Flash",
-  edad: 56
+console.log(typeof cosa)
+if(typeof cosa === "string"){
+  console.log("cosa es un numero")
+}
+else{
+  console.log("Este codigo, indica que no es un string")
 }

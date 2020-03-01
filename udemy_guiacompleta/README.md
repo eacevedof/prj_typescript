@@ -643,8 +643,20 @@ loquesea = {
     edad: 56
 };
 ```
-### [41. Revisar el tipo de un objeto o variable 2 min]()
+### [41. Revisar el tipo de un objeto o variable 2 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154432#content)
+![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/45ea18167d09ed05d1d3e08c41be5923/image.png)
 ```ts
+//app.ts
+let cosa:any = function():void{
+  console.log("soy fn cosa")
+}
+console.log(typeof cosa)
+if(typeof cosa === "string"){
+  console.log("cosa es un numero")
+}
+else{
+  console.log("Este codigo, indica que no es un string")
+}
 ```
 ### [42. Ejercicio práctico #3 1 min]()
 ```ts
