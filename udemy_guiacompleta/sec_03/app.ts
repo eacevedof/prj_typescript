@@ -1,39 +1,29 @@
 //app.ts
-//tipo funcion
-function sumar(a:number,b:number):number{
+function sumar(a:number, b:number):number{
   return a+b
 }
-function saludar(nombre:string):string{
-  return "I'm "+nombre
+
+let contar = function(heroes:string[]):number{
+  return heroes.length
 }
-function salvar_mundo():void{
-  console.log("El mundo está salvado!")
+
+let superheroes = ["Flash","Arrow","Superman"]
+contar(superheroes)
+
+function llamar_batman(llamar:boolean=false):void{
+  if(llamar){
+    console.log("Batiseñal activada")
+  }
 }
-/*
-let miFuncion;
 
-miFuncion = 10
-console.log(miFuncion) //10
+llamar_batman(true)
 
-miFuncion = sumar
-console.log(miFuncion(5,5))//10
+function unir_heroes(...heroes:string[]):string{
+  return heroes.join(", ")
+}
 
-miFuncion = saludar
-console.log(miFuncion("Batman"))//Im Batman
+function nohace_nada(numero:number, texto:string, booleano:boolean, arreglo:any[]){
+}
 
-miFuncion = salvar_mundo
-console.log(miFuncion()) //undefined
-*/
-let miFuncion: (x:number, y:number) => number 
-
-miFuncion = 10  //ts error
-console.log(miFuncion) //10
-
-miFuncion = sumar
-console.log(miFuncion(5,5))//10
-
-miFuncion = saludar //ts error
-console.log(miFuncion("Batman"))//Im Batman
-
-miFuncion = salvar_mundo //ts error
-console.log(miFuncion()) //undefined
+let nohacenada_tampoco : (n:number, t:string, b:boolean, a:any[])=>void
+nohacenada_tampoco = nohace_nada

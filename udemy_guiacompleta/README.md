@@ -432,7 +432,64 @@ console.log(miFuncion()) //undefined
 > Descargue el material adjunto, trabaje en ser lo más explícito que pueda con los tipos de datos y realice lo que en los comentarios del archivo se pide.
 ### [33. Resolución del ejercicio práctico #2 5 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154342#content)
 ```ts
+//app.ts
+function sumar(a:number, b:number):number{
+  return a+b
+}
 
+let contar = function(heroes:string[]):number{
+  return heroes.length
+}
+
+let superheroes = ["Flash","Arrow","Superman"]
+contar(superheroes)
+
+function llamar_batman(llamar:boolean=false):void{
+  if(llamar){
+    console.log("Batiseñal activada")
+  }
+}
+
+llamar_batman(true)
+
+function unir_heroes(...heroes:string[]):string{
+  return heroes.join(", ")
+}
+
+function nohace_nada(numero:number, texto:string, booleano:boolean, arreglo:any[]){
+}
+
+let nohacenada_tampoco : (n:number, t:string, b:boolean, a:any[])=>void
+nohacenada_tampoco = nohace_nada
+```
+```js
+//app.ts
+function sumar(a, b) {
+    return a + b;
+}
+var contar = function (heroes) {
+    return heroes.length;
+};
+var superheroes = ["Flash", "Arrow", "Superman"];
+contar(superheroes);
+function llamar_batman(llamar) {
+    if (llamar === void 0) { llamar = false; }
+    if (llamar) {
+        console.log("Batiseñal activada");
+    }
+}
+llamar_batman(true);
+function unir_heroes() {
+    var heroes = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        heroes[_i] = arguments[_i];
+    }
+    return heroes.join(", ");
+}
+function nohace_nada(numero, texto, booleano, arreglo) {
+}
+var nohacenada_tampoco;
+nohacenada_tampoco = nohace_nada;
 ```
 ### [Cuestionario 2: Examen teórico #2](https://www.udemy.com/course/typescript-guia-completa/learn/quiz/311244#content)
 

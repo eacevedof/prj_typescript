@@ -1,35 +1,27 @@
 //app.ts
-//tipo funcion
 function sumar(a, b) {
     return a + b;
 }
-function saludar(nombre) {
-    return "I'm " + nombre;
+var contar = function (heroes) {
+    return heroes.length;
+};
+var superheroes = ["Flash", "Arrow", "Superman"];
+contar(superheroes);
+function llamar_batman(llamar) {
+    if (llamar === void 0) { llamar = false; }
+    if (llamar) {
+        console.log("Batiseñal activada");
+    }
 }
-function salvar_mundo() {
-    console.log("El mundo está salvado!");
+llamar_batman(true);
+function unir_heroes() {
+    var heroes = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        heroes[_i] = arguments[_i];
+    }
+    return heroes.join(", ");
 }
-/*
-let miFuncion;
-
-miFuncion = 10
-console.log(miFuncion) //10
-
-miFuncion = sumar
-console.log(miFuncion(5,5))//10
-
-miFuncion = saludar
-console.log(miFuncion("Batman"))//Im Batman
-
-miFuncion = salvar_mundo
-console.log(miFuncion()) //undefined
-*/
-var miFuncion;
-miFuncion = 10; //ts error
-console.log(miFuncion); //10
-miFuncion = sumar;
-console.log(miFuncion(5, 5)); //10
-miFuncion = saludar; //ts error
-console.log(miFuncion("Batman")); //Im Batman
-miFuncion = salvar_mundo; //ts error
-console.log(miFuncion()); //undefined
+function nohace_nada(numero, texto, booleano, arreglo) {
+}
+var nohacenada_tampoco;
+nohacenada_tampoco = nohace_nada;
