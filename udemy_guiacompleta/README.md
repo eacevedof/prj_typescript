@@ -505,23 +505,32 @@ nohacenada_tampoco = nohace_nada;
   - Comprobar el tipo de un objeto.
   - Al final, el respectivo examen práctico y teórico.
 ### [35. Objetos básicos 3 min]()
-- 
+```ts
+```
 ### [36. ¿Cómo crear objetos con tipos específicos? 3 min]()
-- 
+```ts
+```
 ### [37. Métodos dentro de los objetos 2 min]()
-- 
+```ts
+```
 ### [38. ¿No creen que es un dolor de cabeza eso? 2 min]()
-- 
+```ts
+```
 ### [39. Tipos personalizados 3 min]()
-- 
+```ts
+```
 ### [40. Multiples tipos permitidos 2 min]()
-- 
+```ts
+```
 ### [41. Revisar el tipo de un objeto o variable 2 min]()
-- 
+```ts
+```
 ### [42. Ejercicio práctico #3 1 min]()
-- 
+```ts
+```
 ### [43. Resolución del ejercicio práctico #3 5 min Cuestionario 3: Examen teórico #3]()
-- 
+```ts
+```
 ### Sección 5: Depuración de Errores y el archivo tsconfig.json 0 / 9|27 min
 ### [44. ¿Qué veremos en esta sección? 1 min]()
 - 
