@@ -1,7 +1,9 @@
 //app.ts
-//parámetros obligatorios
+//parámetro opcional
 function nombre_completo(nombre, apellido) {
-    return nombre + " " + apellido;
+    if (apellido)
+        return nombre + " " + apellido;
+    return "" + nombre;
 }
-var nombre = nombre_completo("clark", "");
+var nombre = nombre_completo("clark");
 console.log(nombre);

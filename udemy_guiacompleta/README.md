@@ -304,14 +304,16 @@ console.log(nombre)
 ```
 ### [28. Parámetros opcionales de las funciones. 3 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154162#content)
 - En js todos los parámetros son opcionales
+- ![](https://trello-attachments.s3.amazonaws.com/5b014dcaf4507eacfc1b4540/5e5a5be99913114e3ffa8299/64d69e1bd29dd65682ba38aeb05d30c2/image.png)
 ```ts
 //app.ts
-//parámetros obligatorios
-function nombre_completo(nombre:string, apellido:string):string{
-  return `${nombre} ${apellido}`
+//parámetro opcional con ?
+function nombre_completo(nombre:string, apellido?:string):string{
+  if(apellido)
+    return `${nombre} ${apellido}`
+  return `${nombre}`
 }
-
-let nombre = nombre_completo("clark","")
+let nombre = nombre_completo("clark")
 console.log(nombre)
 ```
 ### [29. Parámetros por defecto 5 min]()
