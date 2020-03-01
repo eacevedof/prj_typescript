@@ -428,12 +428,14 @@ console.log(miFuncion("Batman"))//Im Batman
 miFuncion = salvar_mundo //ts error
 console.log(miFuncion()) //undefined
 ```
-### [32. Ejercicio práctico #2 1 min]()
+### [32. Ejercicio práctico #2 1 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154326#content)
+> Descargue el material adjunto, trabaje en ser lo más explícito que pueda con los tipos de datos y realice lo que en los comentarios del archivo se pide.
+### [33. Resolución del ejercicio práctico #2 5 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154342#content)
 ```ts
+
 ```
-### [33. Resolución del ejercicio práctico #2 5 min Cuestionario 2: Examen teórico #2]()
-```ts
-```
+### [Cuestionario 2: Examen teórico #2](https://www.udemy.com/course/typescript-guia-completa/learn/quiz/311244#content)
+
 ### Sección 4: Objetos y tipos personalizados en TypeScript 0 / 11|21 min
 ### [34. ¿Qué veremos en esta sección? 1 min]()
 - 
