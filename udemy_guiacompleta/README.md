@@ -793,8 +793,17 @@ mystique = apocalipsis;
 ### [Cuestionario 3: Examen teórico #3](https://www.udemy.com/course/typescript-guia-completa/learn/quiz/311250#content)
 
 ### Sección 5: Depuración de Errores y el archivo tsconfig.json 0 / 9|27 min
-### [44. ¿Qué veremos en esta sección? 1 min]()
-- 
+### [44. ¿Qué veremos en esta sección? 1 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6230551#content)
+- La sección se enfoca en la depuración de errores y comprender el archivo de configuración de TypeScript (el tsconfig.json)
+- Puntualmente:
+  - Aprenderemos el ¿por qué siempre compila a JavaScript?
+  - Para que nos puede servir el archivo de configuración de TypeScript
+  - Realizaremos depuración de errores directamente a nuestros archivos de TypeScript
+  - Removeremos todos los comentarios en nuestro archivo de producción.
+  - Restringiremos al compilador que sólo vea ciertos archivos o carpetas
+  - Crearemos un archivo final de salida
+  - Aprenderemos a cambiar la version de JavaScript de salida
+  - Adicionalmente tendrán el conocimiento necesario para compilar automáticamente cualquier archivo que se vaya creando al momento de ser insertado a nuestro proyecto.
 ### [45. ¿Por qué se compila aunque existe algún error? 2 min]()
 - 
 ### [46. ¿Qué es el archivo tsconfig y para qué nos puede servir? 4 min]()
