@@ -620,8 +620,28 @@ let superman: Heroe = {
 }
 
 ```
-### [40. Multiples tipos permitidos 2 min]()
+### [40. Multiples tipos permitidos 2 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154422#content)
+- union de tipos *pipe* **|**
+![](https://trello-attachments.s3.amazonaws.com/5e5a5be99913114e3ffa8299/1040x240/eb62d4efa1055fdcda1f67b83d40ec6f/image.png)
 ```ts
+//app.ts
+type Heroe = {
+  nombre:string, 
+  edad:number,
+}
+
+let loquesea:string | number | Heroe = "Fernando"
+loquesea = {
+  nombre: "Flash",
+  edad: 56
+}
+```
+```js
+var loquesea = "Fernando";
+loquesea = {
+    nombre: "Flash",
+    edad: 56
+};
 ```
 ### [41. Revisar el tipo de un objeto o variable 2 min]()
 ```ts
