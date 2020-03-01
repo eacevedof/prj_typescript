@@ -658,8 +658,95 @@ else{
   console.log("Este codigo, indica que no es un string")
 }
 ```
-### [42. Ejercicio práctico #3 1 min]()
+### [42. Ejercicio práctico #3 1 min](https://www.udemy.com/course/typescript-guia-completa/learn/lecture/6154516#content)
+> Descargue el material adjunto, trabaje con los tipos de datos y la información que aprendió en esta sección. Sea lo más especifico en los tipos posible y reutilice el primer tipo de dato (el del automóvil)
 ```ts
+//app.ts
+//ejercicio
+
+let batimovil: {
+  carroceria:string,
+  modelo:string,
+  antibalas:boolean,
+  pasajeros:number
+} = {
+  carroceria: "Negra",
+  modelo: "6x6",
+  antibalas: true,
+  pasajeros:4
+}
+
+let bumblebee:{
+  carroceria:string,
+  modelo:string,
+  antibalas:boolean,
+  pasajeros:number,
+  disparar:()=>void
+} = {
+  carroceria: "Amarillo con negro",
+  modelo: "4x2",
+  antibalas: true,
+  pasajeros: 4,
+  disparar(){
+    console.log("Disparando")
+  }
+}
+
+type Villano = {
+  nombre:string,
+  edad:number|undefined,
+  mutante:boolean
+}
+
+//Villanos debe de ser un 
+//arreglo de objetos personalizados
+let villanos: Villano[] = [
+  {
+    nombre: "Lex Luthor",
+    edad: 54,
+    mutante: false
+  },
+  {
+    nombre: "Erik Magnus Lehnsherr",
+    edad: 49,
+    mutante: true
+  },
+  {
+    nombre: "James Logan",
+    edad: undefined,
+    mutante: true
+  }
+]
+
+// Multiples tipos
+// cree dos tipos, uno para charles y otro para apocalipsis
+type Charles = {
+  poder: string,
+  estatura: number,
+}
+
+type Apocalipsis = {
+  lider: boolean,
+  miembros: string[]
+}
+
+let charles: Charles = {
+  poder:"psiquico",
+  estatura: 1.78
+}
+
+let apocalipsis: Apocalipsis = {
+  lider:true,
+  miembros: ["Magneto","Tormenta","Psylocke","Angel"]
+}
+
+let mystique: Charles | Apocalipsis
+
+mystique = charles
+mystique = apocalipsis
+```
+```js
+
 ```
 ### [43. Resolución del ejercicio práctico #3 5 min Cuestionario 3: Examen teórico #3]()
 ```ts

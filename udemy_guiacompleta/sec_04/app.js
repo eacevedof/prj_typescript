@@ -1,11 +1,47 @@
 //app.ts
-var cosa = function () {
-    console.log("soy fn cosa");
+//ejercicio sec04
+var batimovil = {
+  carroceria: "Negra",
+  modelo: "6x6",
+  antibalas: true,
+  pasajeros: 4
 };
-console.log(typeof cosa);
-if (typeof cosa === "string") {
-    console.log("cosa es un numero");
-}
-else {
-    console.log("Este codigo, indica que no es un string");
-}
+var bumblebee = {
+  carroceria: "Amarillo con negro",
+  modelo: "4x2",
+  antibalas: true,
+  pasajeros: 4,
+  disparar: function () {
+      console.log("Disparando");
+  }
+};
+//Villanos debe de ser un 
+//arreglo de objetos personalizados
+var villanos = [
+  {
+      nombre: "Lex Luthor",
+      edad: 54,
+      mutante: false
+  },
+  {
+      nombre: "Erik Magnus Lehnsherr",
+      edad: 49,
+      mutante: true
+  },
+  {
+      nombre: "James Logan",
+      edad: undefined,
+      mutante: true
+  }
+];
+var charles = {
+  poder: "psiquico",
+  estatura: 1.78
+};
+var apocalipsis = {
+  lider: true,
+  miembros: ["Magneto", "Tormenta", "Psylocke", "Angel"]
+};
+var mystique;
+mystique = charles;
+mystique = apocalipsis;
